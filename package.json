@@ -1,0 +1,23 @@
+{
+  "name": "palmares_city_nextjs",
+  "version": "1.0.0",
+  "description": "Palmares, un pueblo para hacer amigos.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "Daniel Quesada <danicrqa@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "next": "^10.0.9",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.0.0"
+  }
+}

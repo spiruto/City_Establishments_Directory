@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "nombre": "Restaurante",
+        "descripcion": "Establecimientos especializados en comidas de todo tipo, bebidas, etc.",
+        "imagen": "https://supermamaspanama.com/wp-content/uploads/2019/6/restaurante-1-1280x720.jpg",
+        "slug": "restaurante",
+        "registros": 23
+    },
+    {
+        "id": 0,
+        "nombre": "Gimnacio",
+        "descripcion": "Establecimientos especializados en comidas de todo tipo, bebidas, etc.",
+        "imagen": "https://supermamaspanama.com/wp-content/uploads/2019/6/restaurante-1-1280x720.jpg",
+        "slug": "gimnacio",
+        "registros": 23
+    },
+    {
+        "id": 1,
+        "nombre": "Colegio",
+        "descripcion": "Establecimientos especializados en comidas de todo tipo, bebidas, etc.",
+        "imagen": "https://supermamaspanama.com/wp-content/uploads/2020/7/restaurante-2-1281x721.jpg",
+        "slug": "colegio",
+        "registros": 23
+    },
+    {
+        "id": 2,
+        "nombre": "Hospital",
+        "descripcion": "Establecimientos especializados en comidas de todo tipo, bebidas, etc.",
+        "imagen": "https://supermamaspanama.com/wp-content/uploads/2021/8/restaurante-3-1282x722.jpg",
+        "slug": "hospital",
+        "registros": 23
+    },
+    {
+        "id": 3,
+        "nombre": "Centro Medico",
+        "descripcion": "Establecimientos especializados en comidas de todo tipo, bebidas, etc.",
+        "imagen": "https://supermamaspanama.com/wp-content/uploads/2022/9/restaurante-4-1283x723.jpg",
+        "slug": "centro-medico",
+        "registros": 23
+    },
+    {
+        "id": 4,
+        "nombre": "Veterinaria",
+        "descripcion": "Establecimientos especializados en comidas de todo tipo, bebidas, etc.",
+        "imagen": "https://supermamaspanama.com/wp-content/uploads/2023/10/restaurante-5-1284x724.jpg",
+        "slug": "veterinaria",
+        "registros": 23
+    },
+    {
+        "id": 5,
+        "nombre": "Centro de Personas Mayores",
+        "descripcion": "Establecimientos especializados en comidas de todo tipo, bebidas, etc.",
+        "imagen": "https://supermamaspanama.com/wp-content/uploads/2024/11/restaurante-6-1285x725.jpg",
+        "slug": "centro-de-personas-mayores",
+        "registros": 23
+    }
+]
