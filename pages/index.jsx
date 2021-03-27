@@ -4,12 +4,11 @@ import axios from "axios";
 import Head from "next/head";
 import SEO from "../components/seo";
 const Inicio = ({ establecimientos, categorias }) => {
-
   return (
     <FrontLayout>
       <Head>
         <SEO
-          title={"Palmares City - Directorio de la Ciudad"}
+          title="Palmares City - Directorio de la Ciudad"
           type={"website"}
           url={""}
           image={
@@ -29,14 +28,15 @@ const Inicio = ({ establecimientos, categorias }) => {
             <div className="col-12 col-md-8 offset-md-2">
               <div className="row">
                 {categorias.map((categoria, key) => (
-                  <div className="col-12 col-md-4 p-2">
-                    <div key={key} className="card">
+                  <div key={key} className="col-12 col-md-4 p-2">
+                    <div className="card">
                       <div className="card-header justify-content-between d-flex">
                         <Link
+                          passHref={true}
                           href={`/categoria/${categoria.slug}`}
                           className="card-link"
                         >
-                          {categoria.name}
+                          <a>{categoria.name}</a>
                         </Link>
                       </div>
                       <div className="card-body">
@@ -58,10 +58,14 @@ const Inicio = ({ establecimientos, categorias }) => {
           <div className="col-12 col-md-10 offset-md-1">
             <p>
               {establecimientos.map((establecimiento, key) => (
-                <>
-                  <Link href={`establecimiento/${establecimiento.slug}`}>{establecimiento.name}</Link>
-                  {key !== establecimientos.length - 1 ? <>, &nbsp;</> : null}
-                </>
+                <Link
+                  key={key}
+                  passHref={true}
+                  href={`establecimiento/${establecimiento.slug}`}
+                ><>
+                  <a>{establecimiento.name}</a>
+                  {key !== establecimientos.length - 1 ? <>, &nbsp;</> : null}</>
+                </Link>
               ))}
               .
             </p>

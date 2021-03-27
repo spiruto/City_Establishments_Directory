@@ -44,9 +44,11 @@ const Categoria = (props) => {
           <div className="col-12 col-md-8">
             <div className="row">
               {state.establecimientos.map((e, key) => (
-                <div className="col-12 offset-md-2 col-md-8 border shadow-sm mb-2 p-2 rounded">
+                <div
+                  key={key}
+                  className="col-12 offset-md-2 col-md-8 border shadow-sm mb-2 p-2 rounded"
+                >
                   <Snippet
-                    key={key}
                     nombre={e.name}
                     descripcion={e.description}
                     slug={e.slug}

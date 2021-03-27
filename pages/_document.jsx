@@ -4,7 +4,6 @@ class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
-          <title>Palmares City - Directorio de la Ciudad</title>
           <meta name="robots" content="index, follow" />
         </Head>
         <body>
